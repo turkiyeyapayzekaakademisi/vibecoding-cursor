@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Görev Listesi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>Görev Listesi</h1>
+        <p class="subtitle">Günlük işlerinizi düzenleyin ve takip edin.</p>
+      </header>
+
+      <form id="todo-form" class="todo-form" autocomplete="off">
+        <label class="sr-only" for="todo-input">Yeni görev</label>
+        <input
+          id="todo-input"
+          type="text"
+          maxlength="200"
+          placeholder="Yeni görev ekleyin..."
+        />
+        <div class="date-field">
+          <label class="sr-only" for="todo-date">Tarih (GG/AA/YIL)</label>
+          <input
+            id="todo-date"
+            type="text"
+            inputmode="numeric"
+            maxlength="10"
+            placeholder="GG/AA/YIL"
+          />
+          <label class="sr-only" for="todo-date-picker">Takvimden tarih seç</label>
+          <input id="todo-date-picker" class="date-picker" type="date" />
+        </div>
+        <button type="submit">Ekle</button>
+      </form>
+      <p id="form-error" class="form-error" hidden>Görev metni boş olamaz.</p>
+
+      <section class="todo-section" aria-labelledby="list-title">
+        <div class="section-head">
+          <h2 id="list-title">Görevler</h2>
+          <p id="todo-count" class="todo-count">0 görev</p>
+        </div>
+        <div class="table-wrap">
+          <table class="todo-table">
+            <thead>
+              <tr>
+                <th scope="col">Görev</th>
+                <th scope="col">Tarih</th>
+                <th scope="col"><span class="sr-only">İşlem</span></th>
+              </tr>
+            </thead>
+            <tbody id="todo-list"></tbody>
+          </table>
+        </div>
+        <p id="empty-state" class="empty-state">Henüz görev yok. Yukarıdan bir görev ekleyin.</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
