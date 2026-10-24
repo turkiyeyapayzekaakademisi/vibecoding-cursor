@@ -1,0 +1,31 @@
+feature,n_outlier,percent
+area error,65,11.4
+radius error,38,6.7
+perimeter error,38,6.7
+worst area,35,6.2
+smoothness error,30,5.3
+fractal dimension error,28,4.9
+compactness error,28,4.9
+symmetry error,27,4.7
+mean area,25,4.4
+worst fractal dimension,24,4.2
+worst symmetry,23,4.0
+concavity error,22,3.9
+texture error,20,3.5
+concave points error,19,3.3
+mean concavity,18,3.2
+worst radius,17,3.0
+worst compactness,16,2.8
+mean compactness,16,2.8
+mean symmetry,15,2.6
+mean fractal dimension,15,2.6
+worst perimeter,15,2.6
+mean radius,14,2.5
+mean perimeter,13,2.3
+worst concavity,12,2.1
+mean concave points,10,1.8
+mean texture,7,1.2
+worst smoothness,7,1.2
+mean smoothness,6,1.1
+worst texture,5,0.9
+worst concave points,0,0.0
