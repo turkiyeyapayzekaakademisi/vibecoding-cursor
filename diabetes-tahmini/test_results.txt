@@ -1,0 +1,30 @@
+Diabetes Model Comparison Results
+=================================
+baseline_test_r2: 0.452603
+best_model_by_cv: manual_interactions_ridge
+best_cv_r2: 0.482006 +/- 0.043846
+best_train_r2: 0.534486
+best_test_r2: 0.472049
+best_test_rmse: 52.888242
+best_test_mae: 42.023740
+best_overfit_gap: 0.062437
+highest_test_r2_model: poly2_lasso (0.513530, cv_r2=0.463847)
+
+All results ranked by CV R2
+---------------------------
+model                           cv_r2   cv_std  train_r2  test_r2     rmse      mae      gap
+manual_interactions_ridge      0.4820   0.0438    0.5345   0.4720    52.89    42.02   0.0624
+lasso_cv                       0.4808   0.0395    0.5244   0.4612    53.43    42.84   0.0632
+elastic_net_cv                 0.4806   0.0375    0.5236   0.4591    53.53    42.87   0.0645
+linear_regression_baseline     0.4804   0.0409    0.5279   0.4526    53.85    42.79   0.0753
+ridge_cv                       0.4802   0.0406    0.5277   0.4541    53.78    42.81   0.0736
+iqr_filtered_ridge             0.4802   0.0406    0.5277   0.4541    53.78    42.81   0.0736
+lasso_selected_ridge           0.4786   0.0347    0.5242   0.4589    53.54    42.86   0.0653
+rfecv_ridge                    0.4750   0.0390    0.5160   0.4714    52.92    42.75   0.0447
+huber_regressor                0.4732   0.0484    0.5249   0.4500    53.98    42.89   0.0748
+select_kbest_6_ridge           0.4649   0.0381    0.5007   0.4515    53.91    43.81   0.0492
+poly2_lasso                    0.4638   0.0443    0.5279   0.5135    50.77    41.38   0.0143
+poly2_ridge                    0.4488   0.0539    0.5575   0.4949    51.73    41.84   0.0626
+svr_rbf_grid                   0.4280   0.0527    0.6230   0.5080    51.05    39.86   0.1150
+random_forest_shallow          0.4183   0.0573    0.5776   0.4768    52.65    42.65   0.1009
+hist_gradient_boosting         0.3977   0.0868    0.7768   0.4653    53.22    42.90   0.3114

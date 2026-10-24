@@ -1,0 +1,121 @@
+2026-10-24 12:40:42,242 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:40:42,291 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:40:42,293 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:40:42,294 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:40:42,295 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:40:42,296 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:40:42,298 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:40:42,299 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:40:42,300 | INFO | diabetes_tahmini | Training the linear regression model.
+2026-10-24 12:40:42,302 | INFO | diabetes_tahmini | Linear regression training completed.
+2026-10-24 12:40:42,303 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:40:42,305 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:40:42,305 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:40:42,306 | INFO | diabetes_tahmini | Training the linear regression model.
+2026-10-24 12:40:42,306 | INFO | diabetes_tahmini | Linear regression training completed.
+2026-10-24 12:40:42,306 | INFO | diabetes_tahmini | Evaluating predictions with the R2 score.
+2026-10-24 12:40:42,307 | INFO | diabetes_tahmini | R2 score: 0.4526027629719197
+2026-10-24 12:40:42,308 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:40:42,310 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:40:42,310 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:40:42,311 | INFO | diabetes_tahmini | Training the linear regression model.
+2026-10-24 12:40:42,312 | INFO | diabetes_tahmini | Linear regression training completed.
+2026-10-24 12:40:42,312 | INFO | diabetes_tahmini | Evaluating predictions with the R2 score.
+2026-10-24 12:40:42,312 | INFO | diabetes_tahmini | R2 score: 0.4526027629719197
+2026-10-24 12:49:38,768 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:49:38,776 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:49:38,776 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:49:38,777 | INFO | diabetes_tahmini | Evaluating candidate: linear_regression_baseline
+2026-10-24 12:49:38,785 | INFO | diabetes_tahmini | linear_regression_baseline | cv_r2=0.4804 +/- 0.0409 | train_r2=0.5279 | test_r2=0.4526 | rmse=53.8534 | mae=42.7941
+2026-10-24 12:49:38,785 | INFO | diabetes_tahmini | Evaluating candidate: ridge_cv
+2026-10-24 12:49:38,797 | INFO | diabetes_tahmini | ridge_cv | cv_r2=0.4802 +/- 0.0406 | train_r2=0.5277 | test_r2=0.4541 | rmse=53.7822 | mae=42.8105
+2026-10-24 12:49:38,797 | INFO | diabetes_tahmini | Evaluating candidate: lasso_cv
+2026-10-24 12:49:38,990 | INFO | diabetes_tahmini | lasso_cv | cv_r2=0.4808 +/- 0.0395 | train_r2=0.5244 | test_r2=0.4612 | rmse=53.4271 | mae=42.8360
+2026-10-24 12:49:38,990 | INFO | diabetes_tahmini | Evaluating candidate: elastic_net_cv
+2026-10-24 12:49:39,802 | INFO | diabetes_tahmini | elastic_net_cv | cv_r2=0.4806 +/- 0.0375 | train_r2=0.5236 | test_r2=0.4591 | rmse=53.5348 | mae=42.8709
+2026-10-24 12:49:39,802 | INFO | diabetes_tahmini | Evaluating candidate: poly2_ridge
+2026-10-24 12:49:39,845 | INFO | diabetes_tahmini | poly2_ridge | cv_r2=0.4488 +/- 0.0539 | train_r2=0.5575 | test_r2=0.4949 | rmse=51.7315 | mae=41.8406
+2026-10-24 12:49:39,845 | INFO | diabetes_tahmini | Evaluating candidate: poly2_lasso
+2026-10-24 12:49:40,548 | INFO | diabetes_tahmini | poly2_lasso | cv_r2=0.4638 +/- 0.0443 | train_r2=0.5279 | test_r2=0.5135 | rmse=50.7680 | mae=41.3816
+2026-10-24 12:49:40,549 | INFO | diabetes_tahmini | Evaluating candidate: select_kbest_6_ridge
+2026-10-24 12:49:40,569 | INFO | diabetes_tahmini | select_kbest_6_ridge | cv_r2=0.4649 +/- 0.0381 | train_r2=0.5007 | test_r2=0.4515 | rmse=53.9087 | mae=43.8130
+2026-10-24 12:49:40,569 | INFO | diabetes_tahmini | Evaluating candidate: rfecv_ridge
+2026-10-24 12:49:40,882 | INFO | diabetes_tahmini | rfecv_ridge | cv_r2=0.4750 +/- 0.0390 | train_r2=0.5160 | test_r2=0.4714 | rmse=52.9229 | mae=42.7482
+2026-10-24 12:49:40,882 | INFO | diabetes_tahmini | Evaluating candidate: svr_rbf_grid
+2026-10-24 12:49:45,505 | INFO | diabetes_tahmini | svr_rbf_grid | cv_r2=0.4280 +/- 0.0527 | train_r2=0.6230 | test_r2=0.5080 | rmse=51.0539 | mae=39.8573
+2026-10-24 12:49:45,505 | INFO | diabetes_tahmini | Evaluating candidate: hist_gradient_boosting
+2026-10-24 12:49:46,269 | INFO | diabetes_tahmini | hist_gradient_boosting | cv_r2=0.3977 +/- 0.0868 | train_r2=0.7768 | test_r2=0.4653 | rmse=53.2230 | mae=42.8980
+2026-10-24 12:49:46,269 | INFO | diabetes_tahmini | Evaluating candidate: random_forest_shallow
+2026-10-24 12:49:47,172 | INFO | diabetes_tahmini | random_forest_shallow | cv_r2=0.4183 +/- 0.0573 | train_r2=0.5776 | test_r2=0.4768 | rmse=52.6502 | mae=42.6490
+2026-10-24 12:49:47,172 | INFO | diabetes_tahmini | Evaluating candidate: huber_regressor
+2026-10-24 12:49:47,327 | INFO | diabetes_tahmini | huber_regressor | cv_r2=0.4732 +/- 0.0484 | train_r2=0.5249 | test_r2=0.4500 | rmse=53.9797 | mae=42.8901
+2026-10-24 12:49:47,327 | INFO | diabetes_tahmini | Evaluating candidate: manual_interactions_ridge
+2026-10-24 12:49:47,339 | INFO | diabetes_tahmini | manual_interactions_ridge | cv_r2=0.4820 +/- 0.0438 | train_r2=0.5345 | test_r2=0.4720 | rmse=52.8882 | mae=42.0237
+2026-10-24 12:49:47,371 | INFO | diabetes_tahmini | Lasso kept 9 features.
+2026-10-24 12:49:47,371 | INFO | diabetes_tahmini | Evaluating candidate: lasso_selected_ridge
+2026-10-24 12:49:47,382 | INFO | diabetes_tahmini | lasso_selected_ridge | cv_r2=0.4786 +/- 0.0347 | train_r2=0.5242 | test_r2=0.4589 | rmse=53.5440 | mae=42.8552
+2026-10-24 12:49:47,383 | INFO | diabetes_tahmini | Removed 0 IQR outliers from the training set.
+2026-10-24 12:49:47,383 | INFO | diabetes_tahmini | Evaluating candidate: iqr_filtered_ridge
+2026-10-24 12:49:47,394 | INFO | diabetes_tahmini | iqr_filtered_ridge | cv_r2=0.4802 +/- 0.0406 | train_r2=0.5277 | test_r2=0.4541 | rmse=53.7822 | mae=42.8105
+2026-10-24 12:49:47,395 | INFO | diabetes_tahmini | Wrote comparison results to C:\Users\kaanc\Desktop\vibecoding-cursor\diabetes-tahmini\test_results.txt
+2026-10-24 12:49:47,395 | INFO | diabetes_tahmini | Best model by CV R2: manual_interactions_ridge (0.482006)
+2026-10-24 12:50:21,638 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:50:21,646 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:50:21,647 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:50:21,648 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:50:21,648 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:50:21,650 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:50:21,651 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:50:21,652 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:50:21,652 | INFO | diabetes_tahmini | Training the linear regression model.
+2026-10-24 12:50:21,653 | INFO | diabetes_tahmini | Linear regression training completed.
+2026-10-24 12:50:21,653 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:50:21,655 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:50:21,655 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:50:21,656 | INFO | diabetes_tahmini | Training the linear regression model.
+2026-10-24 12:50:21,656 | INFO | diabetes_tahmini | Linear regression training completed.
+2026-10-24 12:50:21,656 | INFO | diabetes_tahmini | Evaluating predictions with the R2 score.
+2026-10-24 12:50:21,657 | INFO | diabetes_tahmini | R2 score: 0.4526027629719197
+2026-10-24 12:50:21,661 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:50:21,662 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:50:21,662 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:50:21,663 | INFO | diabetes_tahmini | Training the linear regression model.
+2026-10-24 12:50:21,663 | INFO | diabetes_tahmini | Linear regression training completed.
+2026-10-24 12:50:21,663 | INFO | diabetes_tahmini | Evaluating predictions with the R2 score.
+2026-10-24 12:50:21,664 | INFO | diabetes_tahmini | R2 score: 0.4526027629719197
+2026-10-24 12:50:21,665 | INFO | diabetes_tahmini | Loading the sklearn diabetes dataset.
+2026-10-24 12:50:21,666 | INFO | diabetes_tahmini | Loaded 442 samples with 10 features.
+2026-10-24 12:50:21,666 | INFO | diabetes_tahmini | Splitting data with test_size=0.2 and random_state=42.
+2026-10-24 12:50:21,667 | INFO | diabetes_tahmini | Evaluating candidate: linear_regression_baseline
+2026-10-24 12:50:21,675 | INFO | diabetes_tahmini | linear_regression_baseline | cv_r2=0.4804 +/- 0.0409 | train_r2=0.5279 | test_r2=0.4526 | rmse=53.8534 | mae=42.7941
+2026-10-24 12:50:21,675 | INFO | diabetes_tahmini | Evaluating candidate: ridge_cv
+2026-10-24 12:50:21,686 | INFO | diabetes_tahmini | ridge_cv | cv_r2=0.4802 +/- 0.0406 | train_r2=0.5277 | test_r2=0.4541 | rmse=53.7822 | mae=42.8105
+2026-10-24 12:50:21,686 | INFO | diabetes_tahmini | Evaluating candidate: lasso_cv
+2026-10-24 12:50:21,878 | INFO | diabetes_tahmini | lasso_cv | cv_r2=0.4808 +/- 0.0395 | train_r2=0.5244 | test_r2=0.4612 | rmse=53.4271 | mae=42.8360
+2026-10-24 12:50:21,878 | INFO | diabetes_tahmini | Evaluating candidate: elastic_net_cv
+2026-10-24 12:50:22,691 | INFO | diabetes_tahmini | elastic_net_cv | cv_r2=0.4806 +/- 0.0375 | train_r2=0.5236 | test_r2=0.4591 | rmse=53.5348 | mae=42.8709
+2026-10-24 12:50:22,691 | INFO | diabetes_tahmini | Evaluating candidate: poly2_ridge
+2026-10-24 12:50:22,733 | INFO | diabetes_tahmini | poly2_ridge | cv_r2=0.4488 +/- 0.0539 | train_r2=0.5575 | test_r2=0.4949 | rmse=51.7315 | mae=41.8406
+2026-10-24 12:50:22,733 | INFO | diabetes_tahmini | Evaluating candidate: poly2_lasso
+2026-10-24 12:50:23,420 | INFO | diabetes_tahmini | poly2_lasso | cv_r2=0.4638 +/- 0.0443 | train_r2=0.5279 | test_r2=0.5135 | rmse=50.7680 | mae=41.3816
+2026-10-24 12:50:23,420 | INFO | diabetes_tahmini | Evaluating candidate: select_kbest_6_ridge
+2026-10-24 12:50:23,437 | INFO | diabetes_tahmini | select_kbest_6_ridge | cv_r2=0.4649 +/- 0.0381 | train_r2=0.5007 | test_r2=0.4515 | rmse=53.9087 | mae=43.8130
+2026-10-24 12:50:23,437 | INFO | diabetes_tahmini | Evaluating candidate: rfecv_ridge
+2026-10-24 12:50:23,743 | INFO | diabetes_tahmini | rfecv_ridge | cv_r2=0.4750 +/- 0.0390 | train_r2=0.5160 | test_r2=0.4714 | rmse=52.9229 | mae=42.7482
+2026-10-24 12:50:23,743 | INFO | diabetes_tahmini | Evaluating candidate: svr_rbf_grid
+2026-10-24 12:50:28,362 | INFO | diabetes_tahmini | svr_rbf_grid | cv_r2=0.4280 +/- 0.0527 | train_r2=0.6230 | test_r2=0.5080 | rmse=51.0539 | mae=39.8573
+2026-10-24 12:50:28,362 | INFO | diabetes_tahmini | Evaluating candidate: hist_gradient_boosting
+2026-10-24 12:50:29,164 | INFO | diabetes_tahmini | hist_gradient_boosting | cv_r2=0.3977 +/- 0.0868 | train_r2=0.7768 | test_r2=0.4653 | rmse=53.2230 | mae=42.8980
+2026-10-24 12:50:29,164 | INFO | diabetes_tahmini | Evaluating candidate: random_forest_shallow
+2026-10-24 12:50:30,026 | INFO | diabetes_tahmini | random_forest_shallow | cv_r2=0.4183 +/- 0.0573 | train_r2=0.5776 | test_r2=0.4768 | rmse=52.6502 | mae=42.6490
+2026-10-24 12:50:30,026 | INFO | diabetes_tahmini | Evaluating candidate: huber_regressor
+2026-10-24 12:50:30,187 | INFO | diabetes_tahmini | huber_regressor | cv_r2=0.4732 +/- 0.0484 | train_r2=0.5249 | test_r2=0.4500 | rmse=53.9797 | mae=42.8901
+2026-10-24 12:50:30,188 | INFO | diabetes_tahmini | Evaluating candidate: manual_interactions_ridge
+2026-10-24 12:50:30,200 | INFO | diabetes_tahmini | manual_interactions_ridge | cv_r2=0.4820 +/- 0.0438 | train_r2=0.5345 | test_r2=0.4720 | rmse=52.8882 | mae=42.0237
+2026-10-24 12:50:30,231 | INFO | diabetes_tahmini | Lasso kept 9 features.
+2026-10-24 12:50:30,231 | INFO | diabetes_tahmini | Evaluating candidate: lasso_selected_ridge
+2026-10-24 12:50:30,243 | INFO | diabetes_tahmini | lasso_selected_ridge | cv_r2=0.4786 +/- 0.0347 | train_r2=0.5242 | test_r2=0.4589 | rmse=53.5440 | mae=42.8552
+2026-10-24 12:50:30,244 | INFO | diabetes_tahmini | Removed 0 IQR outliers from the training set.
+2026-10-24 12:50:30,244 | INFO | diabetes_tahmini | Evaluating candidate: iqr_filtered_ridge
+2026-10-24 12:50:30,256 | INFO | diabetes_tahmini | iqr_filtered_ridge | cv_r2=0.4802 +/- 0.0406 | train_r2=0.5277 | test_r2=0.4541 | rmse=53.7822 | mae=42.8105
+2026-10-24 12:50:30,257 | INFO | diabetes_tahmini | Wrote comparison results to C:\Users\kaanc\Desktop\vibecoding-cursor\diabetes-tahmini\test_results.txt
